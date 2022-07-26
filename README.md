@@ -47,13 +47,19 @@ export default App;
 ## Features
 
 - **버튼 컨트롤**
+  <br>
   <img width="480" alt="manual_control" src="https://user-images.githubusercontent.com/54696956/181122801-3c6600f5-8af5-469a-810e-9e68dfe92c93.gif"><p>뒤로가기, 앞으로가기 버튼을 클릭하여 슬라이드를 컨트롤 할 수 있습니다.</p>
   <br>
 
-- **오토 슬라이드**<img width="480" alt="autoplay" src="https://user-images.githubusercontent.com/54696956/181122804-6d72e61a-ae21-4ba2-ab01-1a59c3bdd2b9.gif"><p>오토 슬라이드 기능을 제공합니다. 마우스 커서가 이미지에 위치하면 슬라이드 기능이 일시 정지되고, 영역을 벗어나면 다시 활성화 됩니다.</p>
+- **오토 슬라이드**
+  <br>
+  <img width="480" alt="autoplay" src="https://user-images.githubusercontent.com/54696956/181122804-6d72e61a-ae21-4ba2-ab01-1a59c3bdd2b9.gif"><p>오토 슬라이드 기능을 제공합니다. 마우스 커서가 이미지에 위치하면 슬라이드 기능이 일시 정지되고, 영역을 벗어나면 다시 활성화 됩니다.</p>
   <br>
 
-- **반응형**<img width="480" alt="responsive" src="https://user-images.githubusercontent.com/54696956/181122768-d0a807bf-a9a7-49f0-956e-4a0f86a8ead1.gif"><p>반응형을 지원합니다. 윈도우 크기에 맞춰 이미지 사이즈가 조정됩니다.</p>
+- **반응형**
+  <br>
+  <img width="480" alt="responsive" src="https://user-images.githubusercontent.com/54696956/181122768-d0a807bf-a9a7-49f0-956e-4a0f86a8ead1.gif"><p>반응형을 지원합니다. 윈도우 크기에 맞춰 이미지 사이즈가 조정됩니다.</p>
+  <br>
 
 - **인디케이터**
   이미지 순서를 확인할 수 있는 인디케이터를 제공합니다. (슬라이드가 10개 이하일 경우 원형 인티케이터, 10개 초과일 경우 숫자로 표시)
