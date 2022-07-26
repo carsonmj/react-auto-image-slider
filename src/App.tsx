@@ -1,25 +1,298 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import ImageSlider from "./ImageSlider";
+import Slide from "./Slide";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ImageSlider effectDelay={500} autoPlayDelay={2000}>
+      <Slide>
+        <img alt="img2" src="landscape3.jpg" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="dog.jpg" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="landscape2.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img1" src="dog2.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img1" src="landscape.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="dog3.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="landscape3.jpg" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="dog.jpg" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="landscape2.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img1" src="dog2.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img1" src="landscape.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="dog3.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="landscape3.jpg" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="dog.jpg" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="landscape2.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img1" src="dog2.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img1" src="landscape.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="dog3.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="landscape3.jpg" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="dog.jpg" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="landscape2.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img1" src="dog2.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img1" src="landscape.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="dog3.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="landscape3.jpg" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="dog.jpg" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="landscape2.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img1" src="dog2.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img1" src="landscape.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="dog3.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="landscape3.jpg" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="dog.jpg" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="landscape2.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img1" src="dog2.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img1" src="landscape.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="dog3.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="landscape3.jpg" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="dog.jpg" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="landscape2.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img1" src="dog2.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img1" src="landscape.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="dog3.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="landscape3.jpg" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="dog.jpg" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="landscape2.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img1" src="dog2.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img1" src="landscape.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="dog3.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="landscape3.jpg" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="dog.jpg" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="landscape2.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img1" src="dog2.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img1" src="landscape.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="dog3.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="landscape3.jpg" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="dog.jpg" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="landscape2.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img1" src="dog2.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img1" src="landscape.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="dog3.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="landscape3.jpg" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="dog.jpg" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="landscape2.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img1" src="dog2.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img1" src="landscape.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="dog3.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="landscape3.jpg" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="dog.jpg" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="landscape2.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img1" src="dog2.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img1" src="landscape.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="dog3.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="landscape3.jpg" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="dog.jpg" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="landscape2.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img1" src="dog2.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img1" src="landscape.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="dog3.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="landscape3.jpg" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="dog.jpg" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="landscape2.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img1" src="dog2.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img1" src="landscape.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="dog3.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="landscape3.jpg" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="dog.jpg" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="landscape2.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img1" src="dog2.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img1" src="landscape.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="dog3.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="landscape3.jpg" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="dog.jpg" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="landscape2.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img1" src="dog2.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img1" src="landscape.JPG" />
+      </Slide>
+      <Slide>
+        <img alt="img2" src="dog3.JPG" />
+      </Slide>
+    </ImageSlider>
   );
 }
 
