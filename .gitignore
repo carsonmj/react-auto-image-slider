@@ -6,10 +6,11 @@
 .pnp.js
 
 # testing
-/coverage
+src/__test__
 
 # production
-/build
+public
+src/setupTests.ts
 
 # misc
 .DS_Store

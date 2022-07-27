@@ -7,7 +7,7 @@ import NoChildError from "./components/NoChildError";
 import { styles as styleHelper } from "./utils/helper";
 
 type Props = PropsWithChildren<{
-  children: ReactNode;
+  children: ReactNode | React.FunctionComponent<any>;
   effectDelay?: number;
   autoPlayDelay?: number;
 }>;

@@ -4,23 +4,30 @@
     "lib": [
       "dom",
       "dom.iterable",
-      "esnext"
+      "esnext",
+      "es6",
     ],
+    "declaration": true,
+    "rootDir": "./src",
+    "outDir": "./build",
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
+    "noEmit": false,
     "noFallthroughCasesInSwitch": true,
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": [
-    "src"
+  "include": ["./src/**/*.tsx", "./src/**/*.ts"],
+  "exclude": [
+    "dist",
+    "node_modules",
+    "./src/setupTests.ts"
   ]
 }
