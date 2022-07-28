@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, useCallback, PropsWithChildren, ReactNode } from "react";
+import React, { useState, useEffect, useRef, useCallback, ReactNode } from "react";
 import styled from "styled-components";
 
 import ButtonBox from "./components/ButtonBox";
@@ -6,16 +6,16 @@ import Indicator from "./components/Indicator";
 import NoChildError from "./components/NoChildError";
 import { styles as styleHelper } from "./utils/helper";
 
-type Props = PropsWithChildren<{
+interface Props {
   children: ReactNode;
   effectDelay?: number;
   autoPlayDelay?: number;
-}>;
+}
 
 const ImageSlider = ({ children, effectDelay = 800, autoPlayDelay = 2500 }: Props) => {
   const totalSlide: number = React.Children.count(children);
-  const [currentIndex, setCurrentIndex] = useState<number>(0);
-  const [autoPlay, setAutoPlay] = useState<boolean>(true);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [autoPlay, setAutoPlay] = useState(true);
 
   const slideRef = useRef<HTMLElement>(null);
   const timeoutRef = useRef<number | null>(null);
@@ -59,7 +59,7 @@ const ImageSlider = ({ children, effectDelay = 800, autoPlayDelay = 2500 }: Prop
     }
   }, [totalSlide, currentIndex, effectDelay]);
 
-  const resetslideTimeoutRef = useCallback((): void => {
+  const resetSlideTimeoutRef = useCallback((): void => {
     if (slideTimeoutRef.current) {
       clearTimeout(slideTimeoutRef.current);
     }
@@ -89,7 +89,7 @@ const ImageSlider = ({ children, effectDelay = 800, autoPlayDelay = 2500 }: Prop
 
     return () => {
       setCurrentIndex(0);
-      resetslideTimeoutRef();
+      resetSlideTimeoutRef();
     };
   }, []);
 
