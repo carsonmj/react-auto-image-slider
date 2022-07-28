@@ -1,7 +1,8 @@
+import { ReactNode } from "react";
 import styled from "styled-components";
 
 interface Props {
-  children: any;
+  children: ReactNode;
 }
 
 const Slide = ({ children }: Props) => {
